@@ -12,7 +12,7 @@ nav a{
 }
 nav a:hover {
     background-color: #ffbf69;
-    color: black;
+    color: black 1.5em;
 }
 .logo {
     width: 80px;
@@ -41,52 +41,62 @@ main section {
 }
 body {
     background-color: #1f4771;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color:#db8e1f;
 }
 .book {
     background-color:#1f4771;
-    color: black;
+    color: black 1.5em;
     text-decoration: none;
 }
 .book:hover {
     background-color:#ffbf69;
-    color: black;
+    color: black 1.5em;
+    text-decoration: none;
 }
 .join {
     background-color:#db8e1f;
-    color: black;
+    color: black 1.5em;
     text-decoration: none;
 }
 .join:hover {
     background-color:#db8e1f;
-    color: black;
+    color: black 1.5em;
+    text-decoration: none;
 }
 .msg {
     background-color:#db8e1f;
 }
 .msg h2 {
-    color: black;
+    color: black 1.5em;
 }
 .msg p {
-    color: black;
+    color: black 1.5em;
 }
-h4 {
-    color: black;
+h1, h2, h3, h4, h5, h6 {
+    color: black 1.5em;
+    padding: 10px;
+    text-align: center;
+}
+p {
+    padding: 10px;
+    color: black 1.5em;
 }
 footer {
     background-color:#db8e1f;
 }
 footer a {
-    color: black;
+    color: black 1.5em;
     text-decoration: none;
 }
 footer a:hover {
-    color: black;
+    color: black 1.5em;
 }
 footer p {
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 footer p a:hover {
     text-decoration: underline;
