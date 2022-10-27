@@ -6,29 +6,50 @@
 }
 .home-title {
     color: black;
-    font-family: 'Handlee', cursive;
-    font-size: 2em;
+    font-size: 2.75em;
     margin-top: 10px;
+}
+img {  
+    max-width: 100%;  
+}
+nav {  
+    background-color;
+    display: flex; 
+    justify-content: space-around;  
+    padding: 1em;   
 }
 nav a{
     text-align: center;
     color: black;
     text-decoration: none;
-    padding: 35px;
+    padding: .5em .75em;
+    line-height: 1em;
+    font-family: 'Handlee', 'cursive';
+    font-size: 1em;
 }
 nav a:hover {
     background-color: #ffbf69;
     color: black;
 }
 .logo {
-    width: 80px;
+    width: 150px;
+    height: 100px;
+    position: relative;
 }
 #logo_link {
     padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+.mountains { 
+    width: 100%;  
 }
 .icon {
     width: 80px;
     padding-top: 10px;
+}
+#hero-msg {   
+    text-align: center;
 }
 #hero-img {
     width: 100%;
@@ -42,10 +63,10 @@ nav a:hover {
 .button-box {
     text-align: center;
 }
-main section {
+main, section {
     text-align: center;
 }
-main section img {
+main, section img {
     box-sizing: border-box;
 }
 #background {
@@ -56,17 +77,21 @@ body {
     background-color: #1f4771;
     margin: 0;
     padding: 0;
-    font-family: 'Handlee', cursive;
-    font-size: 22px;
 }
 .rivers-card, .camping-card, .rapids-card {
     margin: 200px 0;
 }
 .card-img {
     border: 10px solid #d9c2a3;
+    width: 30%;
+    height: 300px;
+    box-shadow: 4px 4px 4px #000000;  
+    border: 2px #color solid;
 }
 header {
     background-color:#db8e1f;
+    display: grid;  
+    grid-template-columns: 150px auto;
 }
 .book {
     background-color:#1f4771;
@@ -103,7 +128,7 @@ header {
 }
 .msg h2 {
     color: black;
-    font-family: 'Handlee', cursive;
+    font-family: 'Handlee', 'cursive';
 }
 .msg p {
     color: black;
@@ -117,15 +142,27 @@ h1, h2, h3, h4, h5, h6 {
     color: black;
     padding: 10px;
     text-align: center;
+    font-family: 'Handlee', 'cursive';
+    font-size: 1.5em;
+    line-height: 1.1em;
 }
 p {
     padding: 10px;
     color: black;
+    font-size: 1.25em;
+    line-height: 1.25em;
 }
 footer {
     background-color:#db8e1f;
     padding: 25px 50px;
-    margin-top: 200px;
+    margin-top: 0;
+    display: flex;  
+    justify-content: space-around; 
+    align-items: center;
+}
+footer:  #info { 
+    color: black; 
+    font-size: .5em;  
 }
 footer a {
     color: black;
