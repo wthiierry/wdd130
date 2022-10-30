@@ -205,7 +205,7 @@ footer {
 }
 footer  #info { 
     color: black; 
-    font-size: .5em;  
+    font-size: 1.5em;  
 }
 footer a {
     color: black;
@@ -262,5 +262,4 @@ footer .social img {
     }
     footer {
         margin-top: 25px;
-    }
-}
+    }}
