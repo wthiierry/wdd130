@@ -203,7 +203,7 @@ footer {
     justify-content: space-around; 
     align-items: center;
 }
-footer:  #info { 
+footer  #info { 
     color: black; 
     font-size: .5em;  
 }
@@ -263,3 +263,4 @@ footer .social img {
     footer {
         margin-top: 25px;
     }
+}
