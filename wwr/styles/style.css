@@ -223,6 +223,23 @@ footer p a:hover {
 footer .social img {
     padding-top: 15px;
 }
+
+<-- Starting the css of the rivers page -->
+
+.rivers-grid {
+    display: grid;
+}
+.river1-card, .river2-card, .river3-card {
+    margin: 100px 0;
+}
+.rivers-img {
+    border: 10px solid #d9c2a3;
+    max-width: 100%;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364; 
+    border: 2px color solid;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -251,6 +268,10 @@ footer .social img {
     .rivers-card, .camping-card, .rapids-card { 
         margin: 50px auto;
         width: 60%;
+    }
+    .river1-card, .river2-card, .river3-card {
+        margin: 50px auto;
+        width: 60%;0;
     }
     #background {
         display: none;
