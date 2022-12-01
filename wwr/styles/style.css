@@ -11,7 +11,7 @@
 }
 .home-grid {
     display: grid;
-    grid-template-columns: 10fr;
+    grid-template-columns:  repeat(10, 1fr);
 }
 img {  
     max-width: 100%;  
@@ -224,10 +224,20 @@ footer .social img {
     padding-top: 15px;
 }
 
-<-- Starting the css of the rivers page -->
+/* Starting the css of the rivers page*/
 
 .rivers-grid {
     display: grid;
+    grid-template-columns:  repeat(10, 1fr);
+}
+.river1-card{
+    grid-column: 2/10;
+}
+.river2-card{
+    grid-column: 2/10;
+}
+.river3-card{
+    grid-column: 2/10;
 }
 .river1-card, .river2-card, .river3-card {
     margin: 100px 0;
@@ -271,7 +281,7 @@ footer .social img {
     }
     .river1-card, .river2-card, .river3-card {
         margin: 50px auto;
-        width: 60%;0;
+        width: 60%;
     }
     #background {
         display: none;
@@ -283,4 +293,4 @@ footer .social img {
     }
     footer {
         margin-top: 25px;
-    }}
+    }
